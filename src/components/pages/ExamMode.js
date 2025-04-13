@@ -1,8 +1,14 @@
-import React from 'react'
+import React from 'react';
+
+import { Box, Typography } from '@mui/material';
 
 const ExamMode = () => {
   return (
-    <div>ExamMode</div>
+    <Box>
+      <Typography>
+        Egzamin
+      </Typography>
+    </Box>
   )
 }
 
