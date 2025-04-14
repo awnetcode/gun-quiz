@@ -23,7 +23,7 @@ const LearningMode = ({questionCount, questions}) => {
       fontSize:'32px',
       mb:'16px'
     }}
-    >{questions[0].question}</Typography>
+    >{questions[questionCount].question}</Typography>
     <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
       <Checkbox />a. {questions[questionCount].answers.a}</Typography>
     <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>

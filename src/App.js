@@ -2,7 +2,7 @@ import './App.css';
 
 import { useState } from 'react';
 
-import questions from './assets/questionsHints.json';
+import questions from './assets/questionHints.json';
 
 import Header from './components/Header';
 import MainPage from './components/MainPage';
