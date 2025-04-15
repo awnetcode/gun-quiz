@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 import ExamMode from './pages/ExamMode';
 import LearningMode from './pages/LearningMode';
 
-const MainPage = ({mode, questionCount, questions, correctAnswer, setCorrectAnswer}) => {
+const MainPage = ({mode, questionCount, questions, correctAnswer, setCorrectAnswer, answerNames}) => {
 
   let pageContent = '';
 
@@ -19,7 +19,7 @@ const MainPage = ({mode, questionCount, questions, correctAnswer, setCorrectAnsw
       questionCount={questionCount}
       correctAnswer={correctAnswer}
       setCorrectAnswer={setCorrectAnswer}
-      
+      answerNames={answerNames}
       />;
       break;
 

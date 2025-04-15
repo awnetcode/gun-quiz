@@ -2,21 +2,21 @@ import React from 'react';
 import { useEffect } from 'react';
 
 
-import { Box, Typography, Checkbox} from '@mui/material';
+import { Box, Typography,} from '@mui/material';
 
-const LearningMode = ({questionCount, questions, correctAnswer, setCorrectAnswer}) => {
+const LearningMode = ({questionCount, questions, correctAnswer, answerNames}) => {
 
- 
 
-   useEffect(() =>{
-     console.log(questions.length);
-     console.log(correctAnswer)
-   },[correctAnswer]);
+
+ // console.log(correctAnswer, answerNames);
+ // console.log(questions[questionCount])
+  useEffect(() =>{
+     
+   },[questionCount]);
 
   return (
     <Box sx={{
       fontSize:'24px',
-  
     }}>
     <Typography sx={{
       textAlign:'center',
@@ -27,12 +27,18 @@ const LearningMode = ({questionCount, questions, correctAnswer, setCorrectAnswer
       mb:'16px'
     }}
     >{questions[questionCount].question}</Typography>
-    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
-      <Checkbox />a. {questions[questionCount].answers.a}</Typography>
-    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
-      <Checkbox />b. {questions[questionCount].answers.b}</Typography>
-    <Typography className='correct-answer-hint' sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
-      <Checkbox />c. {questions[questionCount].answers.c}</Typography>
+    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}
+    className={answerNames[0] === correctAnswer ? 'correct-answer-hint' : ''}>
+    <span className='question-key'> a. </span> 
+    {questions[questionCount].answers.a}</Typography>
+    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}
+    className={answerNames[1] === correctAnswer ? 'correct-answer-hint' : ''}>
+    <span className='question-key'> b. </span> 
+    {questions[questionCount].answers.b}</Typography>
+    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}
+    className={answerNames[2] === correctAnswer ? 'correct-answer-hint' : ''}>
+    <span className='question-key'> c. </span> 
+    {questions[questionCount].answers.c}</Typography>
   </Box>
   )
 }

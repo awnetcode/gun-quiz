@@ -12,6 +12,7 @@ function App() {
   const [mode, setMode] = useState('learningMode');
   const [questionCount, setQuestionCount] = useState(0);
   const [correctAnswer, setCorrectAnswer] = useState('');
+  const [answerNames, setAnswerNames] = useState([]);
 
   const setAnswerCorrect = () =>{
     setCorrectAnswer(questions[questionCount].correctAnswer);
@@ -19,6 +20,8 @@ function App() {
 
   useEffect(() => {
     setAnswerCorrect();
+    setAnswerNames(Object.keys(questions[questionCount].answers));
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[questionCount])
 
   return (
@@ -30,6 +33,8 @@ function App() {
       questionCount={questionCount}
       correctAnswer={correctAnswer}
       setCorrectAnswer={setCorrectAnswer}
+      answerNames={answerNames}
+      setAnswerNames={setAnswerNames}
       />
       <Footer questions={questions} questionCount={questionCount} setQuestionCount={setQuestionCount}/>
     </div>
