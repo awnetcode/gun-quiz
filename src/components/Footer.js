@@ -13,7 +13,7 @@ const Footer = ({questionCount, setQuestionCount, questions}) => {
       >wstecz</Button>
       <Button variant='contained' 
       onClick={() => setQuestionCount(questionCount+1)}
-      disabled={questionCount>= questions.length ? true : false}
+      disabled={questionCount>= questions.length-1 ? true : false}
       >dalej</Button>
       <input type='number' onChange={(e) => setQuestionCount(e.target.value-1)}/>
     </Box>

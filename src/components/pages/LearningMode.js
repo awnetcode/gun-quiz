@@ -4,11 +4,14 @@ import { useEffect } from 'react';
 
 import { Box, Typography, Checkbox} from '@mui/material';
 
-const LearningMode = ({questionCount, questions}) => {
+const LearningMode = ({questionCount, questions, correctAnswer, setCorrectAnswer}) => {
+
+ 
 
    useEffect(() =>{
      console.log(questions.length);
-   },[])
+     console.log(correctAnswer)
+   },[correctAnswer]);
 
   return (
     <Box sx={{
@@ -28,7 +31,7 @@ const LearningMode = ({questionCount, questions}) => {
       <Checkbox />a. {questions[questionCount].answers.a}</Typography>
     <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
       <Checkbox />b. {questions[questionCount].answers.b}</Typography>
-    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
+    <Typography className='correct-answer-hint' sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
       <Checkbox />c. {questions[questionCount].answers.c}</Typography>
   </Box>
   )

@@ -5,7 +5,7 @@ import { Box } from '@mui/material';
 import ExamMode from './pages/ExamMode';
 import LearningMode from './pages/LearningMode';
 
-const MainPage = ({mode, questionCount, questions}) => {
+const MainPage = ({mode, questionCount, questions, correctAnswer, setCorrectAnswer}) => {
 
   let pageContent = '';
 
@@ -14,7 +14,13 @@ const MainPage = ({mode, questionCount, questions}) => {
       pageContent = <ExamMode questions={questions} questionCount={questionCount}/>;
       break;
     case 'learningMode':
-      pageContent = <LearningMode questions={questions} questionCount={questionCount}/>;
+      pageContent = <LearningMode 
+      questions={questions} 
+      questionCount={questionCount}
+      correctAnswer={correctAnswer}
+      setCorrectAnswer={setCorrectAnswer}
+      
+      />;
       break;
 
     default:

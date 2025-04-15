@@ -1,8 +1,8 @@
 import './App.css';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
-import questions from './assets/questionHints.json';
+import questions from './assets/questionsData.json';
 
 import Header from './components/Header';
 import MainPage from './components/MainPage';
@@ -11,6 +11,15 @@ import Footer from './components/Footer';
 function App() {
   const [mode, setMode] = useState('learningMode');
   const [questionCount, setQuestionCount] = useState(0);
+  const [correctAnswer, setCorrectAnswer] = useState('');
+
+  const setAnswerCorrect = () =>{
+    setCorrectAnswer(questions[questionCount].correctAnswer);
+  }
+
+  useEffect(() => {
+    setAnswerCorrect();
+  },[questionCount])
 
   return (
     <div className='container'>
@@ -19,6 +28,8 @@ function App() {
       questions={questions} 
       mode={mode}
       questionCount={questionCount}
+      correctAnswer={correctAnswer}
+      setCorrectAnswer={setCorrectAnswer}
       />
       <Footer questions={questions} questionCount={questionCount} setQuestionCount={setQuestionCount}/>
     </div>

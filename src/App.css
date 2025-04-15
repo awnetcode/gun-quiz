@@ -16,3 +16,8 @@
   justify-content: space-around;
   font-size: calc(10px + 2vmin);
 }
+
+.correct-answer-hint{
+  border: 1px solid black;
+  box-shadow: 0 0 12px 2px #0F1A20;
+}
