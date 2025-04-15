@@ -569,7 +569,7 @@
       "b": "kolekcjonerskich lub pamiątkowych;",
       "c": "pamiątkowych lub szkoleniowych."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 53,
@@ -580,7 +580,7 @@
       "b": "każdy sposób przemieszczania przeładowanej broni przez osobę posiadającą broń;",
       "c": "każdy sposób przemieszczania broni przez osobę posiadającą broń."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 54,
@@ -591,7 +591,7 @@
       "b": "komendant wojewódzki Policji właściwy ze względu na miejsce czasowego pobytu osoby zainteresowanej;",
       "c": "komendant wojewódzki Policji właściwy ze względu na miejsce stałego pobytu osoby zainteresowanej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 55,
@@ -602,7 +602,7 @@
       "b": "na   wniosek   organizacji   sportowej,   osobie   wskazanej przez   ten   podmiot oraz posiadającej dopuszczenie do posiadania broni;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 56,
@@ -613,7 +613,7 @@
       "b": "do 3 lat;",
       "c": "do 7 lat."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 57,
@@ -624,7 +624,7 @@
       "b": "jej ważność może być przedłużona na kolejny okres;",
       "c": "należy ją wymienić."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 58,
@@ -632,10 +632,10 @@
     "hint": "art. 10a ust. 4 uobia",
     "answers": {
       "a": "w przypadku cofnięcia pozwolenia na broń palną lub cofnięcia dopuszczenia do posiadania tego rodzaju broni;",
-      "b": "w  przypadku  naruszenia  obowiązku  zawiadomienia  właściwego  organu  Policji                           o zmianie miejsca stałego pobytu;",
+      "b": "w  przypadku  naruszenia  obowiązku  zawiadomienia  właściwego  organu  Policji o zmianie miejsca stałego pobytu;",
       "c": "w przypadku naruszenia zakazu użyczania broni osobie nieupoważnionej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 59,
@@ -646,7 +646,7 @@
       "b": "komendant wojewódzki Policji właściwy ze względu na miejsce czasowego pobytu osoby posiadającej Europejską kartę broni palnej;",
       "c": "komendant wojewódzki Policji właściwy ze względu na miejsce stałego pobytu osoby posiadającej Europejską kartę broni palnej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 60,
@@ -657,7 +657,7 @@
       "b": "gromadzenia broni w zbiorach muzealnych na podstawie odrębnych przepisów;",
       "c": "posiadania broni palnej rozdzielnego ładowania, wytworzonej po roku 1885."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 61,
@@ -668,7 +668,7 @@
       "b": "używania  broni  palnej  sygnałowej  i  alarmowej  do  celów  wzywania  pomocy, ratowniczych,   poszukiwawczych   oraz   przez   osoby   uprawnione   do   sygnalizacji zawodnikom rozpoczęcia konkurencji sportowej w trakcie zawodów sportowych, jeżeli wymaga ona takiej sygnalizacji;",
       "c": "posiadania broni palnej gazowej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 62,
@@ -679,7 +679,7 @@
       "b": "posiadania broni alarmowej albo innej broni palnej, konstrukcyjnie przeznaczonej do strzelania wyłącznie amunicją ślepą, w tym samoczynnej;",
       "c": "posiadania broni cięciwowej w postaci kuszy."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 63,
@@ -690,7 +690,7 @@
       "b": "posiadania broni pneumatycznej;",
       "c": "posiadania przedmiotów przeznaczonych do obezwładniania osób za pomocą energii elektrycznej o średniej wartości prądu w obwodzie przekraczającej 10 mA."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 64,
@@ -701,7 +701,7 @@
       "b": "posiadania pistoletów sygnałowych;",
       "c": "posiadania kastetu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 65,
@@ -712,7 +712,7 @@
       "b": "w drodze decyzji administracyjnej;",
       "c": "w drodze zaświadczenia."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 66,
@@ -723,7 +723,7 @@
       "b": "wyłącznie rodzaj i liczbę egzemplarzy broni;",
       "c": "cel w jakim zostało wydane oraz rodzaj i liczbę egzemplarzy broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 67,
@@ -734,7 +734,7 @@
       "b": "wydawane jest z urzędu i uprawnia do nabycia broni i amunicji do tej broni;",
       "c": "wydawane jest na wniosek osoby posiadającej pozwolenie na broń i uprawnia do nabycia wyłącznie broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 68,
@@ -745,7 +745,7 @@
       "b": "uprawnia do nabycia broni w ilości określonej w zaświadczeniu;",
       "c": "uprawnia do nabycia wyłącznie jednej sztuki broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 69,
@@ -756,18 +756,18 @@
       "b": "ważne 3 miesiące;",
       "c": "bezterminowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
     {
     "number": 70,
-    "question": "70. Nabywając broń palną, na której posiadanie wymagane jest pozwolenie, przy użyciu środków porozumiewania się na odległość, przed wydaniem broni nabywca mający miejsce stałego pobytu na terytorium Rzeczypospolitej Polskiej, dostarcza zbywcy mającemu miejsce stałego pobytu na terytorium Rzeczypospolitej Polskiej:",
+    "question": "Nabywając broń palną, na której posiadanie wymagane jest pozwolenie, przy użyciu środków porozumiewania się na odległość, przed wydaniem broni nabywca mający miejsce stałego pobytu na terytorium Rzeczypospolitej Polskiej, dostarcza zbywcy mającemu miejsce stałego pobytu na terytorium Rzeczypospolitej Polskiej:",
     "hint": "art. 12a ust. 2 uobia",
     "answers": {
       "a": "zaświadczenie uprawniające do nabycia broni;",
       "b": "uprzednią zgodę przewozową;",
-      "c": "zgodę przewozową. 9"
+      "c": "zgodę przewozową."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 71,
@@ -778,7 +778,7 @@
       "b": "uprzednią zgodę przewozową;",
       "c": "zaświadczenie uprawniające do nabycia broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 72,
@@ -789,7 +789,7 @@
       "b": "w ciągu 10 dni od dnia nabycia;",
       "c": "w ciągu 5 dni o dnia nabycia."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 73,
@@ -800,7 +800,7 @@
       "b": "instrukcji obsługi broni;",
       "c": "karty gwarancyjnej broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 74,
@@ -811,7 +811,7 @@
       "b": "wyłącznie dowodu nabycia broni;",
       "c": "wyłącznie  po  przedstawieniu  potwierdzenia  pozbawienia    broni    palnej    cech użytkowych."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 75,
@@ -822,7 +822,7 @@
       "b": "komendant wojewódzki Policji właściwy ze względu na miejsce stałego pobytu osoby posiadającej pozwolenie na broń;",
       "c": "komendant wojewódzki Policji właściwy ze względu na miejsce zameldowania osoby posiadającej pozwolenie na broń."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 76,
@@ -833,7 +833,7 @@
       "b": "komendant wojewódzki Policji właściwy ze względu na miejsce zameldowania osoby posiadającej broń palną pozbawioną cech użytkowych;",
       "c": "komendant wojewódzki Policji właściwy ze względu na miejsce stałego pobytu osoby posiadającej broń palną pozbawioną cech użytkowych."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 77,
@@ -844,7 +844,7 @@
       "b": "komendant powiatowy Policji właściwy ze względu na miejsce stałego pobytu osoby posiadającej broń pneumatyczną;",
       "c": "komendant komisariatu Policji właściwy ze względu na miejsce stałego pobytu osoby posiadającej broń pneumatyczną."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 78,
@@ -855,7 +855,7 @@
       "b": "komendant powiatowy Policji właściwy ze względu na miejsce czasowego pobytu osoby posiadającej pozwolenie na broń;",
       "c": "komendant powiatowy Policji właściwy ze względu na miejsce zameldowania osoby posiadającej pozwolenie na broń."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 79,
@@ -866,7 +866,7 @@
       "b": "legitymacji osoby dopuszczonej do posiadania broni;",
       "c": "legitymacji posiadacza broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 80,
@@ -877,7 +877,7 @@
       "b": "legitymacji osoby dopuszczonej do posiadania broni;",
       "c": "karcie rejestracyjnej broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 81,
@@ -888,7 +888,7 @@
       "b": "karcie rejestracyjnej broni, która jest wydawana posiadaczowi broni;",
       "c": "legitymacji  osoby  dopuszczonej  do  posiadania  broni,  która  jest    wydawana posiadaczowi broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 82,
@@ -899,7 +899,7 @@
       "b": "18 lat;",
       "c": "24 lat."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 83,
@@ -910,18 +910,18 @@
       "b": "21 lat;",
       "c": "18 lat."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 84,
     "question": "Amunicję można nabywać na podstawie:",
     "hint": "art. 14 uobia",
     "answers": {
-      "a": "legitymacji    posiadacza broni, wyłącznie  dla tej broni,  która  jest  określona w legitymacji;",
+      "a": "legitymacji posiadacza broni, wyłącznie  dla tej broni,  która  jest  określona w legitymacji;",
       "b": "legitymacji posiadacza broni, dla każdego rodzaju broni;",
       "c": "legitymacji osoby dopuszczonej do posiadania broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 85,
@@ -932,7 +932,7 @@
       "b": "świadectwa broni  i pisemnego zamówienia podmiotu uprawnionego do nabycia amunicji;",
       "c": "karty rejestracyjnej broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 86,
@@ -943,7 +943,7 @@
       "b": "używającym alkoholu;",
       "c": "o znacznie ograniczonej sprawności psychofizycznej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 87,
@@ -954,7 +954,7 @@
       "b": "wykazującym istotne zaburzenia funkcjonowania psychologicznego;",
       "c": "niemającym ukończonych 24 lat."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 88,
@@ -965,18 +965,18 @@
       "b": "o obniżonej sprawności intelektualnej;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 89,
     "question": "Pozwolenia na broń nie wydaje się osobom:",
     "hint": "art. 15 ust. 1 uobia",
     "answers": {
-      "a": "nieposiadającym obywatelstwa  polskiego  i miejsca  zameldowania  na  terytorium Rzeczypospolitej Polskiej;",
+      "a": "nieposiadającym obywatelstwa polskiego i miejsca zameldowania na terytorium Rzeczypospolitej Polskiej;",
       "b": "nieposiadającym miejsca stałego pobytu na terytorium Rzeczypospolitej Polskiej;",
       "c": "niebędącym obywatelami Rzeczypospolitej Polskiej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 90,
@@ -987,7 +987,7 @@
       "b": "skazanym prawomocnym orzeczeniem sądu za nieumyślne przestępstwo przeciwko mieniu;",
       "c": "skazanym prawomocnym orzeczeniem sądu za umyślne przestępstwo  lub umyślne przestępstwo skarbowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 91,
@@ -998,7 +998,7 @@
       "b": "17 lat;",
       "c": "16 lat."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 92,
@@ -1009,7 +1009,7 @@
       "b": "wyłącznie orzeczenie psychologiczne potwierdzające, że może dysponować bronią;",
       "c": "orzeczenia lekarskie i psychologiczne potwierdzające, że może dysponować bronią."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 93,
@@ -1020,7 +1020,7 @@
       "b": "raz na 5 lat;",
       "c": "nie ma takiego obowiązku."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 94,
@@ -1031,7 +1031,7 @@
       "b": "raz na 3 lata;",
       "c": "raz na 5 lat."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 95,
@@ -1042,7 +1042,7 @@
       "b": "zobowiązać  tę  osobę  do  niezwłocznego  poddania  się  badaniom  lekarskim  i przedstawienia wydanego orzeczenia;",
       "c": "zobowiązać tę osobę do niezwłocznego poddania się badaniom psychologicznym i przedstawienia wydanego orzeczenia."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 96,
@@ -1053,7 +1053,7 @@
       "b": "wnoszone ustnie;",
       "c": "wnoszone na piśmie."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 97,
@@ -1064,7 +1064,7 @@
       "b": "osobie ubiegającej się o pozwolenie na broń oraz komendantowi wojewódzkiemu Policji właściwemu ze względu na miejsce zamieszkania tej osoby;",
       "c": "wyłącznie osobie ubiegającej się o pozwolenie na broń."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 98,
@@ -1075,7 +1075,7 @@
       "b": "30 dni od dnia doręczenia orzeczenia;",
       "c": "14 dni od dnia doręczenia orzeczenia."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 99,
@@ -1086,7 +1086,7 @@
       "b": "przepisy regulaminu określającego zasady zachowania bezpieczeństwa na strzelnicy;",
       "c": "obowiązek zawiadomienia o zmianie miejsca zameldowania."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 100,
@@ -1097,7 +1097,7 @@
       "b": "przepisy regulaminu określającego zasady zachowania bezpieczeństwa na strzelnicy;",
       "c": "obowiązek zawiadomienia o zmianie miejsca stałego pobytu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 101,
@@ -1108,7 +1108,7 @@
       "b": "naruszyła obowiązek rejestracji broni w ciągu 5 dni od dnia jej nabycia;",
       "c": "naruszyła obowiązek  pisemnego  zgłoszenia  przywozu broni   lub   amunicji   przy przekraczaniu granicy."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 102,
@@ -1119,7 +1119,7 @@
       "b": "posiada przy sobie magazynek do broni, której nie posiada;",
       "c": "nie  przestrzega  warunków  określonych  w  pozwoleniu  na  broń  dotyczących ograniczenia lub wykluczenia jej noszenia."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 103,
@@ -1130,7 +1130,7 @@
       "b": "nie zawiadomiła o zmianie szafy do przechowywania broni;",
       "c": "nie zawiadomiła o wyjeździe z bronią na zawody sportowe za granicę."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 104,
@@ -1139,9 +1139,9 @@
     "answers": {
       "a": "została skazana prawomocnym orzeczeniem sądu w sprawie o wykroczenie;",
       "b": "zostały jej przedstawione zarzuty popełnienia przestępstwa umyślnego;",
-      "c": "została  skazana  prawomocnym  orzeczeniem  sądu  za  umyślne  przestępstwo  lub umyślne przestępstwo skarbowe."
+      "c": "została skazana prawomocnym  orzeczeniem sądu za umyślne przestępstwo lub umyślne przestępstwo skarbowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 105,
@@ -1152,7 +1152,7 @@
       "b": "nosi broń znajdując się w stanie po użyciu alkoholu, środka odurzającego lub substancji psychotropowej albo środka zastępczego;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 106,
@@ -1163,7 +1163,7 @@
       "b": "przemieszcza się z rozładowaną bronią albo nosi broń, znajdując się w stanie po użyciu alkoholu,  środka  odurzającego  lub  substancji psychotropowej  albo  środka zastępczego;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 107,
@@ -1174,7 +1174,7 @@
       "b": "nosi broń znajdując się w stanie po użyciu alkoholu, środka odurzającego lub substancji psychotropowej albo środka zastępczego;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 108,
@@ -1185,7 +1185,7 @@
       "b": "została skazana prawomocnym orzeczeniem sądu w sprawie o wykroczenie;",
       "c": "zostały jej przedstawione zarzuty popełnienia umyślnego przestępstwa."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 109,
@@ -1196,7 +1196,7 @@
       "b": "może cofnąć pozwolenie na broń;",
       "c": "cofa pozwolenie na broń."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 110,
@@ -1207,7 +1207,7 @@
       "b": "obowiązku rejestracji broni w ciągu 5 dni od dnia jej nabycia;",
       "c": "obowiązku pisemnego zgłoszenia przywozu broni lub amunicji  przy  przekraczaniu granicy."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 111,
@@ -1218,7 +1218,7 @@
       "b": "obowiązku zawiadomienia właściwego organu o miejscu przechowywania broni;",
       "c": "obowiązku zawiadomienia organu o użyczeniu broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 112,
@@ -1229,7 +1229,7 @@
       "b": "wymogu uzyskania zgody na wywóz broni i amunicji za granicę;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 113,
@@ -1240,7 +1240,7 @@
       "b": "naruszenia  przez  osobę  posiadającą  pozwolenie zakazu  użyczania  broni  osobie nieupoważnionej;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 114,
@@ -1251,7 +1251,7 @@
       "b": "obowiązku zawiadomienia właściwego organu o miejscu przechowywania broni;",
       "c": "obowiązku zawiadomienia organu o użyczeniu broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 115,
@@ -1262,7 +1262,7 @@
       "b": "używania broni palnej oraz innej broni zdolnej do rażenia celów na odległość, w celach szkoleniowych i sportowych poza strzelnicą;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 116,
@@ -1273,7 +1273,7 @@
       "b": "30 dni od dnia otrzymania ostatecznej decyzji o cofnięciu pozwolenia na broń, dopuszczenia do posiadania broni lub unieważnienia karty;",
       "c": "7  dni  od  dnia  otrzymania  ostatecznej  decyzji  o  cofnięciu  pozwolenia  na  broń, dopuszczenia do posiadania broni lub unieważnienia karty."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 117,
@@ -1282,9 +1282,9 @@
     "answers": {
       "a": "za pokwitowaniem odebrać broń i amunicję oraz dokumenty potwierdzające legalność posiadania broni;",
       "b": "za pokwitowaniem odebrać wyłącznie broń i amunicję;",
-      "c": "za  pokwitowaniem  odebrać  wyłącznie dokumenty  potwierdzające  legalność posiadania broni."
+      "c": "za pokwitowaniem  odebrać  wyłącznie dokumenty potwierdzające legalność posiadania broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 118,
@@ -1295,7 +1295,7 @@
       "b": "za pokwitowaniem odebrać broń i amunicję oraz dokumenty potwierdzające legalność posiadania broni;",
       "c": "za  pokwitowaniem  odebrać  wyłącznie dokumenty  potwierdzające  legalność posiadania broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 119,
@@ -1306,7 +1306,7 @@
       "b": "4 lata;",
       "c": "2 lata. "
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 120,
@@ -1317,7 +1317,7 @@
       "b": "w drodze postanowienia;",
       "c": "w drodze decyzji administracyjnej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 121,

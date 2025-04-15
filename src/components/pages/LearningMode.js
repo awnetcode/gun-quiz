@@ -21,10 +21,15 @@ const LearningMode = ({questionCount, questions, correctAnswer, answerNames}) =>
     <Typography sx={{
       textAlign:'center',
       fontSize: '24px',
-    }}>Pytanie {questions[questionCount].number} ({questions[questionCount].hint})</Typography>
+    }}>Pytanie  {questions[questionCount].number} ({questions[questionCount].hint === '' ? ' brak ' : questions[questionCount].hint})
+    </Typography>
     <Typography sx={{
-      fontSize:'32px',
-      mb:'16px'
+      fontSize:'24px',
+      fontWeight:'600',
+      textIndent:'50px',
+      mb:'16px',
+      mt:'16px',
+      textAlign:'justify'
     }}
     >{questions[questionCount].question}</Typography>
     <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}

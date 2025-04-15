@@ -20,6 +20,12 @@ const Header = ({setMode}) => {
         setMarkedTab(1);
       }}/>
     </Tabs>
+    <Box sx={{
+      fontSize:'16px',
+      textAlign:'center',
+      p:'10px',
+      opacity:'.3'
+    }}>Strona w budowie...</Box>
     </Box>
   )
 }

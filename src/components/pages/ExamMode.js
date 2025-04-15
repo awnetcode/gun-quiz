@@ -6,7 +6,7 @@ const ExamMode = () => {
   return (
     <Box>
       <Typography>
-        Egzamin
+        Tu na razie jest ściernisko<br/> ale będzie EGZAMINISKO !
       </Typography>
     </Box>
   )

@@ -7,13 +7,13 @@ const Footer = ({questionCount, setQuestionCount, questions}) => {
     if(e.target.value >= 1 && e.target.value <=200){
       setQuestionCount(e.target.value-1)
     } else return
-
   }
 
   return (
     <Box sx={{
       display:'flex',
-      gap:'5px'
+      gap:'5px',
+      mb:'24px'
     }}>
       <Button variant='contained' 
       onClick={() => setQuestionCount(questionCount-1)}
