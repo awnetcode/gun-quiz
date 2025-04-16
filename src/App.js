@@ -31,6 +31,7 @@ function App() {
       questions={questions} 
       mode={mode}
       questionCount={questionCount}
+      setQuestionCount={setQuestionCount}
       correctAnswer={correctAnswer}
       setCorrectAnswer={setCorrectAnswer}
       answerNames={answerNames}
