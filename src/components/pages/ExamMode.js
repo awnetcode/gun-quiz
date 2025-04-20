@@ -1,25 +1,58 @@
 import React from 'react';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 
 import { Box, Typography, Checkbox, Skeleton, LinearProgress } from '@mui/material';
 
 import TimeCounter from '../TimeCounter';
 
-const ExamMode = ({questions, questionCount, setQuestionCount}) => {
-
-  const [randomQuestions, setRandomQuestions] = useState([]);
+const ExamMode = ({
+  questions, 
+  questionCount, 
+  setQuestionCount, 
+  selectedAnswer, 
+  setSelectedAnswer,
+  randomQuestions, 
+  setRandomQuestions, 
+  setEndOfList
+}) => {
 
   const getQuestionSet = (data, count) => {
     const shuffled = [...data].sort(() => Math.random() - 0.5);
     return shuffled.slice(0, count);
   };
 
+  //zapisuje w stanie klucz wewnątrz obiektu answers  przy którym zaznaczam checkbox
+  const markAnswerByCheckbox = (answerKey) => {
+    setSelectedAnswer(answerKey);
+  }
+
+  const checkIfAnswerCorrect = () =>{
+    if(selectedAnswer && randomQuestions[questionCount].correctAnswer === selectedAnswer){
+      console.log('brawo wygrańcu')
+    }
+  }
+
+  const checkListEnd = () => {
+    if(questionCount === randomQuestions.length){
+      setEndOfList(true)
+    }
+  }
+
   useEffect(() => {
     const selectedQuestions = getQuestionSet(questions, 20);
     setRandomQuestions(selectedQuestions);
     setQuestionCount(0);
+  }, []);
 
-  }, [])
+  useEffect(() =>{
+      checkIfAnswerCorrect();
+  }, [selectedAnswer]);
+
+  useEffect(() => {
+    checkListEnd()
+  },[questionCount])
+
+  //console.log(randomQuestions[questionCount]);
 
   if (!randomQuestions[questionCount]) {
     return(<>
@@ -29,7 +62,6 @@ const ExamMode = ({questions, questionCount, setQuestionCount}) => {
     <Skeleton variant='text' width={500} height={60}/>
     <Skeleton variant='text' width={500} height={60}/>
     </>)
-   // return <Typography>Ładowanie pytań...</Typography>;
   }
 
   return (
@@ -54,31 +86,29 @@ const ExamMode = ({questions, questionCount, setQuestionCount}) => {
       textAlign:'justify'
     }}
     >{randomQuestions[questionCount].question}</Typography>
-    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
-      <Checkbox/>
-    <span className='question-key'> a. </span> 
-    {randomQuestions[questionCount].answers.a}</Typography>
-    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
-      <Checkbox/>
-    <span className='question-key'> b. </span> 
-    {randomQuestions[questionCount].answers.b}</Typography>
-    <Typography sx={{fontSize:'20px', ml:'40px', p:'4px'}}>
-      <Checkbox/>
-    <span className='question-key'> c. </span> 
-    {randomQuestions[questionCount].answers.c}</Typography>
+   {randomQuestions[questionCount]?.answers &&
+  Object.entries(randomQuestions[questionCount].answers).map(([key, value], index) => (
+    <Typography key={index} sx={{ fontSize: '20px', ml: '40px', p: '4px' }}>
+        <Checkbox
+        checked={selectedAnswer === key}
+        onChange={() => markAnswerByCheckbox(key)}
+      />
+      <span className='question-key'>{key}</span> {value}
+    </Typography>
+  ))}
+
   </Box>
   <Box sx={{
-        width:'60%',
+        width: {xs: '100%', mx:'80%', lg:'50%'},
         position:'absolute',
         bottom:'100px',
-        left:'20%',
+        m:'0 auto',
         fontFamily:'Kode Mono'
   }}>
   <LinearProgress sx={{
     height:'5px',
-
   }}
-   color='success' variant="determinate" value={questionCount*5 + 5}/> {questionCount +1} / 20
+   color='success' variant="determinate" value={questionCount*5 + 5}/> {questionCount +1} z {randomQuestions.length}
   </Box>
   </>
   )

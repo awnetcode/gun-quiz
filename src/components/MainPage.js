@@ -5,7 +5,20 @@ import { Box } from '@mui/material';
 import ExamMode from './pages/ExamMode';
 import LearningMode from './pages/LearningMode';
 
-const MainPage = ({mode, questionCount, questions, correctAnswer, setCorrectAnswer, answerNames, setQuestionCount}) => {
+const MainPage = ({
+   mode, 
+   questionCount,
+   questions, 
+   correctAnswer, 
+   setCorrectAnswer, 
+   answerNames, 
+   setQuestionCount,
+   selectedAnswer,
+   setSelectedAnswer,
+   randomQuestions,
+   setRandomQuestions,
+   setEndOfList
+  }) => {
 
   let pageContent = '';
 
@@ -15,6 +28,11 @@ const MainPage = ({mode, questionCount, questions, correctAnswer, setCorrectAnsw
       questions={questions} 
       questionCount={questionCount}
       setQuestionCount={setQuestionCount}
+      selectedAnswer={selectedAnswer}
+      setSelectedAnswer={setSelectedAnswer}
+      randomQuestions={randomQuestions}
+      setRandomQuestions={setRandomQuestions}
+      setEndOfList={setEndOfList}
       />;
       break;
     case 'learningMode':
@@ -24,6 +42,7 @@ const MainPage = ({mode, questionCount, questions, correctAnswer, setCorrectAnsw
       correctAnswer={correctAnswer}
       setCorrectAnswer={setCorrectAnswer}
       answerNames={answerNames}
+      setEndOfList={setEndOfList}
       />;
       break;
 

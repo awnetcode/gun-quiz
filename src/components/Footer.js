@@ -1,7 +1,7 @@
 import React from 'react'
 import { Box, Button } from '@mui/material'
 
-const Footer = ({questionCount, setQuestionCount, questions}) => {
+const Footer = ({questionCount, setQuestionCount, setSelectedAnswer, endOfList}) => {
 
   const quickQestionChoice = (e) =>{
     if(e.target.value >= 1 && e.target.value <=200){
@@ -20,8 +20,11 @@ const Footer = ({questionCount, setQuestionCount, questions}) => {
       disabled={questionCount<=0 ? true : false}
       >wstecz</Button>
       <Button variant='contained' 
-      onClick={() => setQuestionCount(questionCount+1)}
-      disabled={questionCount>= questions.length-1 ? true : false}
+      onClick={() => {
+        setQuestionCount(questionCount+1);
+        setSelectedAnswer('')
+      } }
+      disabled={endOfList === true ? true : false}
       >dalej</Button>
       <input type='number' className='quick-choice-field' onChange={(e) => quickQestionChoice(e)}/>
     </Box>

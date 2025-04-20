@@ -33,13 +33,13 @@ const TimeCounter = () => {
   return (
     <Box>
         <Typography className='time-counter' sx={{
-          background:'var(--seasalt)',
+          background:'#1976d2',
           fontFamily: 'Kode Mono, monospace', 
           fontSize: '2rem',
-          color:'#1976d2',
+          //color:'#1976d2',
           p:'0 24px',
           borderRadius:'4px',
-          boxShadow: '0 1px 4px 1px #0F1A20', 
+          boxShadow: 1, 
           textAlign:'center',
           position:'absolute',
           top: '24px',
