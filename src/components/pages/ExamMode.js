@@ -13,7 +13,8 @@ const ExamMode = ({
   setSelectedAnswer,
   randomQuestions, 
   setRandomQuestions, 
-  setEndOfList
+  checkListEnd,
+  setListLength
 }) => {
 
   const getQuestionSet = (data, count) => {
@@ -32,27 +33,25 @@ const ExamMode = ({
     }
   }
 
-  const checkListEnd = () => {
-    if(questionCount === randomQuestions.length){
-      setEndOfList(true)
-    }
-  }
-
   useEffect(() => {
     const selectedQuestions = getQuestionSet(questions, 20);
     setRandomQuestions(selectedQuestions);
     setQuestionCount(0);
+    setListLength(randomQuestions.length)
+
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   useEffect(() =>{
       checkIfAnswerCorrect();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedAnswer]);
 
   useEffect(() => {
-    checkListEnd()
+    checkListEnd(randomQuestions.length, questionCount);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[questionCount])
 
-  //console.log(randomQuestions[questionCount]);
 
   if (!randomQuestions[questionCount]) {
     return(<>

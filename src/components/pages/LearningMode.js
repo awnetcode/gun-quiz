@@ -4,15 +4,22 @@ import { useEffect } from 'react';
 
 import { Box, Typography,} from '@mui/material';
 
-const LearningMode = ({questionCount, questions, correctAnswer, answerNames}) => {
+const LearningMode = ({
+  questionCount, 
+  questions, 
+  correctAnswer, 
+  answerNames, 
+  checkListEnd,
+  setListLength
+}) => {
 
-
-
- // console.log(correctAnswer, answerNames);
- // console.log(questions[questionCount])
   useEffect(() =>{
-     
+     checkListEnd(questions.length, questionCount)
+     setListLength(questions.length)
+   // eslint-disable-next-line react-hooks/exhaustive-deps
    },[questionCount]);
+
+
 
   return (
     <Box sx={{

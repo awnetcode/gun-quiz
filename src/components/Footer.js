@@ -1,10 +1,10 @@
 import React from 'react'
 import { Box, Button } from '@mui/material'
 
-const Footer = ({questionCount, setQuestionCount, setSelectedAnswer, endOfList}) => {
+const Footer = ({questionCount, setQuestionCount, setSelectedAnswer, endOfList, listLength}) => {
 
   const quickQestionChoice = (e) =>{
-    if(e.target.value >= 1 && e.target.value <=200){
+    if(e.target.value >= 1 && e.target.value <= listLength){
       setQuestionCount(e.target.value-1)
     } else return
   }

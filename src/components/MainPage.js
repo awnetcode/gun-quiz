@@ -17,7 +17,8 @@ const MainPage = ({
    setSelectedAnswer,
    randomQuestions,
    setRandomQuestions,
-   setEndOfList
+   setListLength,
+   checkListEnd
   }) => {
 
   let pageContent = '';
@@ -32,7 +33,8 @@ const MainPage = ({
       setSelectedAnswer={setSelectedAnswer}
       randomQuestions={randomQuestions}
       setRandomQuestions={setRandomQuestions}
-      setEndOfList={setEndOfList}
+      checkListEnd={checkListEnd}
+      setListLength={setListLength}
       />;
       break;
     case 'learningMode':
@@ -42,7 +44,8 @@ const MainPage = ({
       correctAnswer={correctAnswer}
       setCorrectAnswer={setCorrectAnswer}
       answerNames={answerNames}
-      setEndOfList={setEndOfList}
+      checkListEnd={checkListEnd}
+      setListLength={setListLength}
       />;
       break;
 

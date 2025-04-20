@@ -1,6 +1,6 @@
 import './App.css';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 
 import questions from './assets/questionsData.json';
 
@@ -17,7 +17,17 @@ function App() {
   const [selectedAnswer, setSelectedAnswer] = useState(''); //klucz obliektu 'answers' zaznaczony checkboxem
   const [randomQuestions, setRandomQuestions] = useState([]); //tablica wylosowanych 20 pytań z puli 200 
 
+  const [listLength, setListLength] = useState(0);
+
   const [endOfList, setEndOfList] = useState(false); //ogranicza questionCount do długości tablicy pytań
+
+  const checkListEnd = useCallback((listLength, currentIndex) => {
+    if(listLength > 0 && currentIndex >= listLength - 1){
+      setEndOfList(true);
+    } else {
+      setEndOfList(false);
+    }
+  }, []);
 
   const setAnswerCorrect = () =>{
     setCorrectAnswer(questions[questionCount].correctAnswer);
@@ -46,12 +56,15 @@ function App() {
       randomQuestions={randomQuestions}
       setRandomQuestions={setRandomQuestions}
       setEndOfList={setEndOfList}
+      checkListEnd={checkListEnd}
+      setListLength={setListLength}
       />
       <Footer
        questionCount={questionCount}
        setQuestionCount={setQuestionCount}
        setSelectedAnswer={setSelectedAnswer}
        endOfList={endOfList}
+       listLength={listLength}
       />
     </div>
   );
