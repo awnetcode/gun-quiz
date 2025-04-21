@@ -13,7 +13,8 @@ const Header = ({setMode}) => {
       <Tab label="Tryb nauki" 
       onClick={() => {
         setMode('learningMode');
-        setMarkedTab(0)} }/>
+        setMarkedTab(0);
+        }}/>
       <Tab label="Tryb egzaminu"  
       onClick={() => {
         setMode('examMode');

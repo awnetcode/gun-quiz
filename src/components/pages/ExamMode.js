@@ -100,7 +100,7 @@ const ExamMode = ({
   <Box sx={{
         width: {xs: '100%', mx:'80%', lg:'50%'},
         position:'absolute',
-        bottom:'100px',
+        bottom:'50px',
         m:'0 auto',
         fontFamily:'Kode Mono'
   }}>

@@ -65,6 +65,7 @@ function App() {
        setSelectedAnswer={setSelectedAnswer}
        endOfList={endOfList}
        listLength={listLength}
+       mode={mode}
       />
     </div>
   );
