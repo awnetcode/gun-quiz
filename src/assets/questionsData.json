@@ -1328,7 +1328,7 @@
       "b": "wyłącznie pomiędzy osobami posiadającymi pozwolenie na broń do celów sportowych i łowieckich;",
       "c": "zbywanie broni i amunicji do tej broni pomiędzy posiadaczami pozwolenia na broń jest zabronione."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 122,
@@ -1339,7 +1339,7 @@
       "b": "niezwłocznie;",
       "c": "w ciągu 14 dni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 123,
@@ -1350,7 +1350,7 @@
       "b": "telefonicznie;",
       "c": "tylko pisemnie."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 124,
@@ -1361,7 +1361,7 @@
       "b": "w ciągu 7 dni;",
       "c": "w ciągu 30 dni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 125,
@@ -1372,7 +1372,7 @@
       "b": "zbyć broń i amunicję do tej broni;",
       "c": "przekazać klucze do szafy na broń osobie, która posiada pozwolenie na broń."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 126,
@@ -1383,7 +1383,7 @@
       "b": "zbyć lub pozbawić broń palną cech użytkowych;",
       "c": "przekazać klucze do szafy na broń osobie, która posiada pozwolenie na broń."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 127,
@@ -1394,7 +1394,7 @@
       "b": "w terminie 14 dni od utraty pozwolenia;",
       "c": "w terminie 7 dni od utraty pozwolenia."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 128,
@@ -1405,7 +1405,7 @@
       "b": "Policja;",
       "c": "osoba, która utraciła prawo do posiadania broni i amunicji do niej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 129,
@@ -1416,7 +1416,7 @@
       "b": "zawiadomić o tym Policję albo Prokuraturę;",
       "c": "zawiadomić o tym Policję albo Straż Graniczną."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 130,
@@ -1427,7 +1427,7 @@
       "b": "niezwłocznie, nie później jednak niż w ciągu 48 godzin od chwili stwierdzenia utraty broni;",
       "c": "niezwłocznie, nie później jednak niż w ciągu 24 godzin od chwili stwierdzenia  utraty broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 131,
@@ -1438,7 +1438,7 @@
       "b": "w terminie 30 dni od dnia zmiany miejsca stałego pobytu;",
       "c": "w terminie 7 dni od dnia zmiany miejsca stałego pobytu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 132,
@@ -1449,7 +1449,7 @@
       "b": "organ Policji właściwy ze względu na nowe miejsce stałego pobytu;",
       "c": "organ Policji właściwy ze względu na dotychczasowe miejsce stałego pobytu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 133,
@@ -1460,7 +1460,7 @@
       "b": "łowieckich lub sportowych;",
       "c": "szkoleniowych lub łowieckich."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 134,
@@ -1471,7 +1471,7 @@
       "b": "kolekcjonerskim;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 135,
@@ -1482,7 +1482,7 @@
       "b": "osobom fizycznym posiadającym pozwolenie na broń;",
       "c": "prywatnym placówkom muzealnym."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 136,
@@ -1493,7 +1493,7 @@
       "b": "podmiotom wykonującym zadania związane z realizacją filmów i innych przedsięwzięć artystycznych;",
       "c": "osobom posiadającym dopuszczenie do posiadania broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 137,
@@ -1504,7 +1504,7 @@
       "b": "stowarzyszeniom strzeleckim;",
       "c": "podmiotom prowadzącym strzelnicę."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 138,
@@ -1515,7 +1515,7 @@
       "b": "posługiwania  się  bronią  podmiotów  posiadających  świadectwo  broni,  przy wykonywaniu zadań w ramach prowadzonej działalności",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 139,
@@ -1526,7 +1526,7 @@
       "b": "niemającym ukończonych 24 lat;",
       "c": "używającym alkoholu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 140,
@@ -1537,7 +1537,7 @@
       "b": "o obniżonej sprawności fizycznej;",
       "c": "niemającym ukończonych 24 lat."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 141,
@@ -1548,7 +1548,7 @@
       "b": "uzależnionym od alkoholu lub od substancji psychoaktywnych;",
       "c": "o obniżonej sprawności fizycznej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 142,
@@ -1559,7 +1559,7 @@
       "b": "nieposiadającym miejsca zameldowania na terytorium Rzeczypospolitej Polskiej;",
       "c": "niebędącym obywatelami Rzeczypospolitej Polskiej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 143,
@@ -1570,7 +1570,7 @@
       "b": "skazanym prawomocnym orzeczeniem sądu za umyślne przestępstwo lub umyślne przestępstwo skarbowe;",
       "c": "skazanym prawomocnym orzeczeniem sądu za nieumyślne przestępstwo przeciwko mieniu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 144,
@@ -1581,7 +1581,7 @@
       "b": "w drodze zaświadczenia;",
       "c": "w drodze decyzji administracyjnej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 145,
@@ -1592,7 +1592,7 @@
       "b": "zapobiegający ich uszkodzeniu;",
       "c": "niezagrażający innym osobom."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 146,
@@ -1603,7 +1603,7 @@
       "b": " w urządzeniach spełniających wymagania co najmniej klasy S1 według normy PN-EN 14450;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 147,
@@ -1614,7 +1614,7 @@
       "b": "z podłączonym magazynkiem, w stanie rozładowanym;",
       "c": "z podłączonym magazynkiem, w stanie załadowanym."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 148,
@@ -1625,7 +1625,7 @@
       "b": "w pudełkach lub pojemnikach, w sposób uniemożliwiający uderzenie w spłonkę naboju;",
       "c": " w dowolny sposób, umożliwiający szybki dostęp do amunicji."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 149,
@@ -1636,7 +1636,7 @@
       "b": "w urządzeniach spełniających wymagania co najmniej klasy S1 według normy PN-EN 14450;",
       "c": "w urządzeniach spełniających wymagania co najmniej klasy 0 według normy PN-EN 1143-1."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 150,
@@ -1647,7 +1647,7 @@
       "b": "powyżej 50 egzemplarzy;",
       "c": "powyżej 20 egzemplarzy."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 151,
@@ -1658,7 +1658,7 @@
       "b": "na specjalnie przystosowanych regałach;",
       "c": "przechowywanie broni i amunicji poza urządzeniami spełniającymi wymagania co najmniej klasy S1 według norm PN-EN 14450 jest zabronione."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 152,
@@ -1669,7 +1669,7 @@
       "b": "w pudełku, w którym zakupiono broń;",
       "c": "kaburach lub futerałach."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 153,
@@ -1680,7 +1680,7 @@
       "b": "w sposób umożliwiający jej szybkie dobycie;",
       "c": "w sposób widoczny, w kaburze przylegającej do ciała."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 154,
@@ -1691,7 +1691,7 @@
       "b": "minister właściwy do spraw wewnętrznych, w drodze rozporządzenia;",
       "c": "Komendant Główny Policji, w drodze zarządzenia."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 155,
@@ -1702,7 +1702,7 @@
       "b": "zgody właściwego organu Policji;",
       "c": "paszportu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 156,
@@ -1713,7 +1713,7 @@
       "b": "zgody właściwego organu Policji;",
       "c": "Europejskiej karty broni palnej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 157,
@@ -1724,7 +1724,7 @@
       "b": "jest  dopuszczalne  przy  zachowaniu  niezbędnych  środków  bezpieczeństwa,  pod warunkiem,  że broń  i  amunicja  są  zabezpieczone  w  sposób  uniemożliwiający powstanie zagrożenia życia, zdrowia lub mienia;",
       "c": "jest dozwolone wyłącznie za zgodą właściwego organu Policji."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 158,
@@ -1735,7 +1735,7 @@
       "b": "dozwolone;",
       "c": "dozwolone wyłącznie za zgodą właściwego organu Policji."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 159,
@@ -1746,18 +1746,18 @@
       "b": "w  stanie  rozładowanym,  bez  amunicji  w  komorze  nabojowej  i  w  magazynkach nabojowych z wyłączeniem broni do ochrony osobistej oraz ochrony osób i mienia;",
       "c": "w środkach transportu publicznego przewożenie broni jest zabronione."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 160,
     "question": "W środkach transportu publicznego, służących do przewozu pasażerów, broń do ochrony osobistej, ochrony bezpieczeństwa innych osób oraz mienia:",
     "hint": "§2 ust. 2 rozporządzenia w sprawie przewożenia broni i amunicji środkami transportu publicznego",
     "answers": {
-      "a": " może  być  załadowana  bez  wprowadzonego  naboju  do  komory  nabojowej i przewożona w stanie zabezpieczonym;",
+      "a": " może  być  załadowana  bez  wprowadzonego naboju do komory nabojowej i przewożona w stanie zabezpieczonym;",
       "b": "musi być rozładowana, bez  amunicji  w  komorze  nabojowej  i  w  magazynkach  oraz przewożona w stanie zabezpieczonym;",
       "c": "może być załadowana z wprowadzonym nabojem do komory nabojowej i przewożona w stanie zabezpieczonym."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number":  161,
@@ -1768,7 +1768,7 @@
       "b": "przy zachowaniu niezbędnych wymogów bezpieczeństwa, wykluczających możliwość przypadkowej eksplozji, w ilości uzasadnionej potrzebami osoby przewożącej;",
       "c": "odpowiedzi a. i b. są nieprawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 162,
@@ -1779,7 +1779,7 @@
       "b": "w magazynkach nabojowych;",
       "c": "przewożenie amunicji w środkach transportu jest zabronione."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 163,
@@ -1790,7 +1790,7 @@
       "b": "w bagażu podręcznym, informując o powyższym fakcie kapitana statku;",
       "c": "w lukach bagażowych lub w miejscu wskazanym przez przewoźnika, jako bagaż rejestrowany, do którego pasażerowie nie mają dostępu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 164,
@@ -1801,18 +1801,18 @@
       "b": "dozwolone o ile świadczą oni tego rodzaju usługi;",
       "c": "dopuszczalne za zgodą właściwego organu Policji."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 165,
-    "question": "Przywóz  broni  i  amunicji,  z  państw niebędących  państwami  członkowskimi  Unii Europejskiej, przez obywateli polskich wymaga:",
+    "question": "Przywóz broni i amunicji, z państw niebędących  państwami członkowskimi  Unii Europejskiej, przez obywateli polskich wymaga:",
     "hint": "art. 37 ust. 1 uobia",
     "answers": {
       "a": "uprzedniego  wydania  zaświadczenia  przez  właściwego  konsula  Rzeczypospolitej Polskiej;",
       "b": "uprzedniego wydania zgody właściwego organu Policji;",
       "c": "poświadczenia uprzedniej zgody przewozowej i zgody przewozowej."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 166,
@@ -1823,7 +1823,7 @@
       "b": "poświadcza uprzednią zgodę przewozową;",
       "c": "wydaje zaświadczenie uprawniające do nabycia broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 167,
@@ -1834,7 +1834,7 @@
       "b": "uzyskaniu zgody właściwego organu państwa docelowego;",
       "c": "zgody właściwego organu Policji."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 168,
@@ -1845,7 +1845,7 @@
       "b": "wydania Europejskiej karty broni palnej, uprawniającej do wywozu broni na terytorium państw członkowskich Unii Europejskiej;",
       "c": "wydania legitymacji osoby dopuszczonej do posiadania broni."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 169,
@@ -1856,7 +1856,7 @@
       "b": "nie uiszczono opłaty skarbowej za ich poświadczenie;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 170,
@@ -1867,7 +1867,7 @@
       "b": "na prywatnych posesjach;",
       "c": "tylko na strzelnicach."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 171,
@@ -1878,7 +1878,7 @@
       "b": "wykluczający możliwość wydostania się poza ich obręb pocisku wystrzelonego z broni ze stanowiska strzeleckiego w sposób zgodny z regulaminem strzelnicy;",
       "c": "odpowiedzi a. i b. są prawidłowe."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 172,
@@ -1889,7 +1889,7 @@
       "b": "statut strzelnicy;",
       "c": "prowadzący strzelanie."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 173,
@@ -1900,7 +1900,7 @@
       "b": "zarządca strzelnicy;",
       "c": "prowadzący strzelanie."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 174,
@@ -1911,7 +1911,7 @@
       "b": "osoby korzystające ze strzelnicy wyznaczają sobie same;",
       "c": "wyznacza właściciel strzelnicy."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 175,
@@ -1922,7 +1922,7 @@
       "b": "zabrania się wchodzenia na stanowiska strzeleckie oraz styczności z bronią;",
       "c": "zabrania się wnoszenia jedzenia i picia na teren strzelnic."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 176,
@@ -1933,7 +1933,7 @@
       "b": "zabronione bez zgody prowadzącego strzelanie;",
       "c": "zabronione bez zgody jej użytkownika."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 177,
@@ -1944,18 +1944,18 @@
       "b": "dozwolone za zgodą właściciela strzelnicy;",
       "c": "zabronione."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 178,
-    "question": "Na  strzelnicy,  wyjmowanie broni odbywa się wyłącznie na stanowisku strzeleckim lub treningowym tylko: ",
+    "question": "Na  strzelnicy, wyjmowanie broni odbywa się wyłącznie na stanowisku strzeleckim lub treningowym tylko: ",
     "hint": "Rozdział 2 ust. 2 wzorcowego regulaminu bezpiecznego funkcjonowania strzelnic",
     "answers": {
       "a": "na polecenie prowadzącego strzelanie lub trening strzelecki;",
       "b": "za zgodą właściciela strzelnicy;",
       "c": "za zgodą zarządcy strzelnicy."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 179,
@@ -1966,7 +1966,7 @@
       "b": "prowadzącego strzelanie;",
       "c": "zarządcy strzelnicy."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 180,
@@ -1977,7 +1977,7 @@
       "b": "osobie znajdującej się na sąsiadującym stanowisku strzeleckim;",
       "c": "prowadzącemu strzelanie."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 181,
@@ -1988,29 +1988,29 @@
       "b": "broń rozładowuje się i chowa do kabury;",
       "c": "broń rozładowuje się i pozostawia na stanowisku strzeleckim."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 182,
-    "question": "Na   strzelnicy,   po   zakończeniu  strzelania,  rozładowaniu  broni  i  przedstawieniu  jej prowadzącemu  strzelanie:",
+    "question": "Na  strzelnicy, po zakończeniu strzelania, rozładowaniu broni i przedstawieniu  jej prowadzącemu  strzelanie:",
     "hint": "Rozdział 2 ust. 6 wzorcowego   regulaminu   bezpiecznego funkcjonowania strzelnic",
     "answers": {
       "a": "podchodzi się do tarcz;",
       "b": "opuszcza się stanowisko strzeleckie z bronią z otwartą komorą nabojową;",
       "c": "opuszcza się stanowisko strzeleckie pozostawiając broń na stanowisku."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 183,
-    "question": "Na  strzelnicy,  podczas  strzelania,  komendę  „STOP”  może  wydać:",
+    "question": "Na  strzelnicy, podczas strzelania, komendę  „STOP”  może  wydać:",
     "hint": "Rozdział 3 ust.  4 wzorcowego regulaminu bezpiecznego funkcjonowania strzelnic",
     "answers": {
       "a": "wyłącznie prowadzący strzelanie;",
       "b": "prowadzący strzelanie lub inna osoba;",
       "c": "prowadzący strzelanie lub zarządca strzelnicy."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 184,
@@ -2021,7 +2021,7 @@
       "b": "strzelający przerywają strzelanie po wyczerpaniu amunicji w magazynku;",
       "c": "strzelający rozładowują broń i przedstawiają ją prowadzącemu strzelanie."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 173,
@@ -2032,7 +2032,7 @@
       "b": "grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2;",
       "c": "wyłącznie karze grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 186,
@@ -2043,7 +2043,7 @@
       "b": "karze aresztu albo grzywny;",
       "c": "wyłącznie karze grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 187,
@@ -2054,7 +2054,7 @@
       "b": "wyłącznie karze grzywny;",
       "c": "karze aresztu albo grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 188,
@@ -2065,7 +2065,7 @@
       "b": "karze aresztu albo grzywny;",
       "c": "wyłącznie karze grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 189,
@@ -2076,7 +2076,7 @@
       "b": "karze aresztu albo grzywny;",
       "c": "wyłącznie karze grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 190,
@@ -2087,7 +2087,7 @@
       "b": "grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2;",
       "c": "wyłącznie karze grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 191,
@@ -2098,7 +2098,7 @@
       "b": "wyłącznie karze grzywny;",
       "c": "karze aresztu albo grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 192,
@@ -2109,7 +2109,7 @@
       "b": "karze aresztu albo grzywny;",
       "c": "wyłącznie karze grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 193,
@@ -2120,7 +2120,7 @@
       "b": "grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2;",
       "c": "wyłącznie karze aresztu albo grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 194,
@@ -2131,18 +2131,18 @@
       "b": "na jakiekolwiek dobro chronione prawem;",
       "c": "tylko na życie i zdrowie człowieka."
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   },
   {
     "number": 195,
     "question": "Do przekroczenia granic obrony koniecznej może dojść w  sytuacji,  gdy:",
-    "hint": "art.  25  kodeksu karnego",
+    "hint": "art. 25 kodeksu karnego",
     "answers": {
       "a": "działania obronne wyprzedziły zamach;",
       "b": "dobrem ratowanym nie było życie;",
       "c": "dobro ratowane było niskiej wartości."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 196,
@@ -2153,7 +2153,7 @@
       "b": "dobro ratowane było niskiej wartości;",
       "c": "działania obronne były niewspółmierne do niebezpieczeństwa zamachu."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 197,
@@ -2164,7 +2164,7 @@
       "b": "grzywnie, karze ograniczenia wolności albo pozbawienia wolności do lat 2;",
       "c": "karze aresztu albo grzywny."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 198,
@@ -2175,7 +2175,7 @@
       "b": "karze aresztu albo grzywny;",
       "c": "karze pozbawienia wolności od 6 miesięcy do lat 8."
     },
-    "correctAnswer": ""
+    "correctAnswer": "c"
   },
   {
     "number": 199,
@@ -2186,7 +2186,7 @@
       "b": "karze aresztu albo grzywny;",
       "c": "grzywnie."
     },
-    "correctAnswer": ""
+    "correctAnswer": "a"
   },
   {
     "number": 200,
@@ -2197,6 +2197,6 @@
       "b": "grzywnie, karze ograniczenia wolności albo pozbawienia wolności do roku;",
       "c": "grzywnie"
     },
-    "correctAnswer": ""
+    "correctAnswer": "b"
   }
 ]

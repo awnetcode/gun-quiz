@@ -36,7 +36,8 @@ const Footer = ({
     <Box sx={{
       display:'flex',
       gap:'5px',
-      mb:'24px'
+      mb:'24px',
+      mt:'24px'
     }}>
       <Button variant='contained' 
       onClick={() => setQuestionCount(questionCount-1)}

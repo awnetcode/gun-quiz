@@ -59,7 +59,7 @@ function App() {
       checkListEnd={checkListEnd}
       setListLength={setListLength}
       />
-      <Footer
+      <Footer 
        questionCount={questionCount}
        setQuestionCount={setQuestionCount}
        setSelectedAnswer={setSelectedAnswer}
