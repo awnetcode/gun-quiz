@@ -8,6 +8,7 @@ const Footer = ({
   endOfList, 
   listLength,
   mode,
+  setMode,
   saveExamAnswers,
 }) => {
 
@@ -27,6 +28,7 @@ const Footer = ({
       variant='contained'
       onClick={() => {
         saveExamAnswers();
+        setMode('examFinished')
       }}
       >gotowe</Button>
     )
@@ -56,7 +58,8 @@ const Footer = ({
       } }
       disabled={endOfList === true ? true : false}
       >następne</Button>
-  {mode === 'learningMode' ? quickPageSelectIput() : finishExamButton()}
+  {mode === 'learningMode' ? quickPageSelectIput() : ''}
+  {mode === 'examMode' ? finishExamButton() : ''}
     </Box>
   )
 }

@@ -4,6 +4,7 @@ import { Box } from '@mui/material';
 
 import ExamMode from './pages/ExamMode';
 import LearningMode from './pages/LearningMode';
+import CheckExamResult from './pages/CheckExamResult';
 
 const MainPage = ({
    mode, 
@@ -21,6 +22,7 @@ const MainPage = ({
    checkListEnd,
    checkedAnswersArray,
    setCheckedAnswersArray,
+   examResult
   }) => {
 
   let pageContent = '';
@@ -51,6 +53,15 @@ const MainPage = ({
       checkListEnd={checkListEnd}
       setListLength={setListLength}
       />;
+      break;
+
+    case 'examFinished':
+      pageContent = <CheckExamResult 
+      examResult={examResult}
+      questionCount={questionCount}
+      setQuestionCount={setQuestionCount}
+      setListLength={setListLength}
+      />
       break;
 
     default:

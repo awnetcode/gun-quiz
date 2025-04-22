@@ -77,6 +77,7 @@ function App() {
       setListLength={setListLength}
       checkedAnswersArray={checkedAnswersArray}
       setCheckedAnswersArray={setCheckedAnswersArray}
+      examResult={examResult}
       />
       <Footer 
        questionCount={questionCount}
@@ -85,6 +86,7 @@ function App() {
        endOfList={endOfList}
        listLength={listLength}
        mode={mode}
+       setMode={setMode}
        saveExamAnswers={saveExamAnswers}
       />
     </div>
