@@ -14,7 +14,8 @@ const ExamMode = ({
   randomQuestions, 
   setRandomQuestions, 
   checkListEnd,
-  setListLength
+  setListLength,
+  setCheckedAnswersArray,
 }) => {
 
   const getQuestionSet = (data, count) => {
@@ -25,6 +26,13 @@ const ExamMode = ({
   //zapisuje w stanie klucz wewnątrz obiektu answers  przy którym zaznaczam checkbox
   const markAnswerByCheckbox = (answerKey) => {
     setSelectedAnswer(answerKey);
+
+    //zapis zaznaczonej odpowiedzi w tablicy
+    setCheckedAnswersArray(prev => {
+      const updated = [...prev];// spread operator jest tylko po to, aby React mógł zareagować na zmianę i odświeżyć komponent. Dokładnie to dzięki ... kopiujemy prev (czyli de facto aktualny stan checkedAnswersArray), czyli updated jest kopią w pamięci checkedAnswersArray
+      updated[questionCount] = answerKey;
+      return updated;
+    });  
   }
 
   const checkIfAnswerCorrect = () =>{
@@ -37,7 +45,8 @@ const ExamMode = ({
     const selectedQuestions = getQuestionSet(questions, 20);
     setRandomQuestions(selectedQuestions);
     setQuestionCount(0);
-    setListLength(randomQuestions.length)
+    setListLength(selectedQuestions.length);
+    setCheckedAnswersArray(Array.from({ length: selectedQuestions.length }, () => ""));
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);

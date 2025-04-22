@@ -7,7 +7,8 @@ const Footer = ({
   setSelectedAnswer, 
   endOfList, 
   listLength,
-  mode
+  mode,
+  saveExamAnswers,
 }) => {
 
   const quickPageSelectIput = () =>{
@@ -22,7 +23,12 @@ const Footer = ({
   
   const finishExamButton = () =>{
     return(
-      <Button variant='contained'>gotowe</Button>
+      <Button 
+      variant='contained'
+      onClick={() => {
+        saveExamAnswers();
+      }}
+      >gotowe</Button>
     )
   }
 

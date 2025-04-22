@@ -13,13 +13,19 @@ function App() {
   const [questionCount, setQuestionCount] = useState(0); //numer pytania, które aktualnie wyświetla
   const [correctAnswer, setCorrectAnswer] = useState(''); //prawidłowa odpowiedź aktualnego pytania 
   const [answerNames, setAnswerNames] = useState([]); //tablica z kluczami obiektu 'answers' aktualnego pytania
+  const [examResult, setExamResult] = useState([]);
+
 
   const [selectedAnswer, setSelectedAnswer] = useState(''); //klucz obliektu 'answers' zaznaczony checkboxem
   const [randomQuestions, setRandomQuestions] = useState([]); //tablica wylosowanych 20 pytań z puli 200 
+  const [checkedAnswersArray, setCheckedAnswersArray] = useState([]); //tablica odpoiedzi zaznaczanych przez użytkownika
 
   const [listLength, setListLength] = useState(0);
 
   const [endOfList, setEndOfList] = useState(false); //ogranicza questionCount do długości tablicy pytań
+
+  //const checkedAnswersArray = Array.from({length : randomQuestions.length}, () => "");
+  //console.log(checkedAnswersArray);
 
   const checkListEnd = useCallback((listLength, currentIndex) => {
     if(listLength > 0 && currentIndex >= listLength - 1){
@@ -28,6 +34,17 @@ function App() {
       setEndOfList(false);
     }
   }, []);
+
+    //dodaje do obiektu tablicy randomQuestions właściwość markedAnswer
+    const saveExamAnswers = () => {
+      const examResults = randomQuestions.map((question, index) => ({
+        ...question,
+        markedAnswer: checkedAnswersArray[index]
+      }));
+    
+      // np. zapisujemy wyniki do stanu:
+      setExamResult(examResults);
+    };
 
   const setAnswerCorrect = () =>{
     setCorrectAnswer(questions[questionCount].correctAnswer);
@@ -58,6 +75,8 @@ function App() {
       setEndOfList={setEndOfList}
       checkListEnd={checkListEnd}
       setListLength={setListLength}
+      checkedAnswersArray={checkedAnswersArray}
+      setCheckedAnswersArray={setCheckedAnswersArray}
       />
       <Footer 
        questionCount={questionCount}
@@ -66,6 +85,7 @@ function App() {
        endOfList={endOfList}
        listLength={listLength}
        mode={mode}
+       saveExamAnswers={saveExamAnswers}
       />
     </div>
   );
