@@ -84,6 +84,7 @@ function App() {
        setQuestionCount={setQuestionCount}
        setSelectedAnswer={setSelectedAnswer}
        endOfList={endOfList}
+       setEndOfList={setEndOfList}
        listLength={listLength}
        mode={mode}
        setMode={setMode}

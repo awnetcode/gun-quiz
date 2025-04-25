@@ -35,12 +35,6 @@ const ExamMode = ({
     });  
   }
 
-  const checkIfAnswerCorrect = () =>{
-    if(selectedAnswer && randomQuestions[questionCount].correctAnswer === selectedAnswer){
-      console.log('brawo wygrańcu')
-    }
-  }
-
   useEffect(() => {
     const selectedQuestions = getQuestionSet(questions, 20);
     setRandomQuestions(selectedQuestions);
@@ -50,11 +44,6 @@ const ExamMode = ({
 
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  useEffect(() =>{
-      checkIfAnswerCorrect();
-  // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [selectedAnswer]);
 
   useEffect(() => {
     checkListEnd(randomQuestions.length, questionCount);
@@ -76,32 +65,35 @@ const ExamMode = ({
     <>
     <Box><TimeCounter/></Box>
     <Box sx={{
-      fontSize:'24px',
+      fontFamily: 'Cormorant-Garamond, serif',
+      fontSize:{lg:'24px', xs:'16px'},
+      border: '1px solid red',
     }}>
     <Typography sx={{
+      fontFamily: 'inherit',
       textAlign:'center',
-      fontSize: '24px',
-      fontFamily: 'Cormorant-Garamond, serif'
+      fontSize: 'inherit',
     }}>Pytanie  {randomQuestions[questionCount].number} <br/>
     ({randomQuestions[questionCount].hint === '' ? ' brak ' : randomQuestions[questionCount].hint})
     </Typography>
     <Typography sx={{
-      fontSize:'24px',
+      fontFamily: 'inherit',
+      fontSize: 'inherit',
       fontWeight:'600',
       textIndent:'50px',
       mb:'16px',
       mt:'16px',
-      textAlign:'justify'
+      textAlign:'justify',
     }}
     >{randomQuestions[questionCount].question}</Typography>
    {randomQuestions[questionCount]?.answers &&
   Object.entries(randomQuestions[questionCount].answers).map(([key, value], index) => (
-    <Typography key={index} sx={{ fontSize: '20px', ml: '40px', p: '4px' }}>
+    <Typography key={index} sx={{ fontFamily: 'inherit', fontSize:{lg:'20px', xs:'14px'}, ml: '40px', p: '4px' }}>
         <Checkbox
         checked={selectedAnswer === key}
         onChange={() => markAnswerByCheckbox(key)}
       />
-      <span className='question-key'>{key}</span> {value}
+      <span className='question-key'>{key}.</span> {value}
     </Typography>
   ))}
 
@@ -110,13 +102,9 @@ const ExamMode = ({
         width: {xs: '100%', mx:'80%', lg:'50%'},
         position:'absolute',
         bottom:'50px',
-        m:'0 auto',
-        fontFamily:'Kode Mono'
+        m:'0 auto'
   }}>
-  <LinearProgress sx={{
-    height:'5px',
-  }}
-   color='success' variant="determinate" value={questionCount*5 + 5}/> {questionCount +1} z {randomQuestions.length}
+
   </Box>
   </>
   )

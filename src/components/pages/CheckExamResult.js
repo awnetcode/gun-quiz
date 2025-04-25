@@ -23,17 +23,21 @@ console.log(examResult)
 
   return (
     <Box sx={{
-      fontSize:'24px',
+      fontSize:{lg:'24px', xs:'16px'},
+      fontFamily: 'Cormorant-Garamond, serif',
+      p:'10px'
     }}>
     <Typography sx={{
+      fontFamily: 'inherit',
       textAlign:'center',
-      fontSize: '24px',
+      fontSize: 'inherit',
     }}>Pytanie  {examResult[questionCount].number} ({examResult[questionCount].hint === '' ? ' brak ' : examResult[questionCount].hint})
     </Typography>
     <Typography sx={{
-      fontSize:'24px',
+      fontFamily: 'inherit',
+      fontSize: 'inherit',
       fontWeight:'600',
-      textIndent:'50px',
+      textIndent:{lg:'50px', xs:'20px'},
       mb:'16px',
       mt:'16px',
       textAlign:'justify'
@@ -41,8 +45,8 @@ console.log(examResult)
     >{examResult[questionCount].question}</Typography>
     {Object.entries(examResult[questionCount].answers).map(([key, contents]) =>(
       <Typography key={key} sx={{
-        fontSize:'20px', 
-        ml:'40px', 
+        fontSize: 'inherit', 
+        ml:{lg:'40px', xs:'24px'}, 
         p:'4px'
       }}>
       {key === examResult[questionCount].markedAnswer && 

@@ -18,7 +18,7 @@ const TimeCounter = () => {
         });
       }, 1000);
   
-      // Czyścimy interwał, gdy komponent się unmountuje
+    // Czyścimy interwał, gdy komponent się unmountuje
       return () => clearInterval(interval);
     }, []);
   
@@ -32,11 +32,9 @@ const TimeCounter = () => {
 
   return (
     <Box>
-        <Typography className='time-counter' sx={{
-          background:'#1976d2',
-          fontFamily: 'Kode Mono, monospace', 
-          fontSize: '2rem',
-          //color:'#1976d2',
+        <Typography color='success' className='time-counter' sx={{
+          fontFamily: 'Roboto Mono',
+          fontSize: '1.5rem',
           p:'0 24px',
           borderRadius:'4px',
           boxShadow: 1, 
@@ -45,7 +43,7 @@ const TimeCounter = () => {
           top: '24px',
           right: '48px'
         }}
-        >
+        >     
         {formatTime(minutes)}:{formatTime(seconds)}
         </Typography>
     </Box>

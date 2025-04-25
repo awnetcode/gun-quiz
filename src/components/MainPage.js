@@ -70,7 +70,7 @@ const MainPage = ({
 
   return (
     <Box sx={{
-         maxWidth:{lg:'50%', xs:'100%'},
+         width:{lg:'50%', xs:'100%'},
     }}>{pageContent}</Box>
   )
 }
