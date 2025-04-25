@@ -40,7 +40,7 @@ const TimeCounter = () => {
           boxShadow: 1, 
           textAlign:'center',
           position:'absolute',
-          top: '24px',
+          top:{lg:'24px', xs:'60px'}, 
           right: '48px'
         }}
         >     

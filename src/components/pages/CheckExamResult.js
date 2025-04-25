@@ -2,8 +2,6 @@ import React from 'react';
 import { useEffect } from 'react';
 
 import { Box, Typography} from '@mui/material';
-//import CancelIcon from '@mui/icons-material/Cancel';
-//import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 import { Cancel, CheckCircleOutline } from '@mui/icons-material';
 
 
@@ -17,7 +15,6 @@ const CheckExamResult = ({
 useEffect(() =>{
 setQuestionCount(0);
 setListLength(examResult.length)
-console.log(examResult)
 // eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
 

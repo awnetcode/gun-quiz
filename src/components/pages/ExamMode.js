@@ -67,7 +67,7 @@ const ExamMode = ({
     <Box sx={{
       fontFamily: 'Cormorant-Garamond, serif',
       fontSize:{lg:'24px', xs:'16px'},
-      border: '1px solid red',
+      p:'10px'
     }}>
     <Typography sx={{
       fontFamily: 'inherit',
@@ -88,7 +88,7 @@ const ExamMode = ({
     >{randomQuestions[questionCount].question}</Typography>
    {randomQuestions[questionCount]?.answers &&
   Object.entries(randomQuestions[questionCount].answers).map(([key, value], index) => (
-    <Typography key={index} sx={{ fontFamily: 'inherit', fontSize:{lg:'20px', xs:'14px'}, ml: '40px', p: '4px' }}>
+    <Typography key={index} sx={{ fontFamily: 'inherit', fontSize:{lg:'20px', xs:'14px'}, ml:{lg:'40px', xs:'24px'},  p: '4px' }}>
         <Checkbox
         checked={selectedAnswer === key}
         onChange={() => markAnswerByCheckbox(key)}
@@ -101,9 +101,15 @@ const ExamMode = ({
   <Box sx={{
         width: {xs: '100%', mx:'80%', lg:'50%'},
         position:'absolute',
-        bottom:'50px',
-        m:'0 auto'
+        bottom:{lg:'50px', xs:'100px'},
+        m:'0 auto',
   }}>
+
+<LinearProgress sx={{
+    height:'5px',
+    width:'100%'
+  }}
+   color='success' variant="determinate" value={questionCount*5 + 5}/> {questionCount +1} z {randomQuestions.length}
 
   </Box>
   </>

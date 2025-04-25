@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Button, LinearProgress } from '@mui/material'
+import { Box, Button, } from '@mui/material'
 
 const Footer = ({
   questionCount,setQuestionCount, 
@@ -41,11 +41,6 @@ const Footer = ({
 
   return (
     <>
-      <LinearProgress sx={{
-    height:'5px',
-    width:'80%'
-  }}
-   color='success' variant="determinate" value={questionCount*5 + 5}/> {questionCount +1} z 20
       <Box sx={{
       display:'flex',
       flexWrap:'wrap',
