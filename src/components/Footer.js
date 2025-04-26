@@ -29,7 +29,7 @@ const Footer = ({
         setMode('examFinished');
         setEndOfList(false);
       }}
-      >gotowe</Button>
+      >zakończ</Button>
     )
   }
 
@@ -47,6 +47,8 @@ const Footer = ({
       justifyContent:'space-around',
       gap:'5px',
       mb:'24px',
+      position:'absolute',
+      bottom:'0'
     }}>
       <Button variant='contained' 
       onClick={() => setQuestionCount(questionCount-1)}

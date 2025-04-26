@@ -7,6 +7,7 @@ import questions from './assets/questionsData.json';
 import Header from './components/Header';
 import MainPage from './components/MainPage';
 import Footer from './components/Footer';
+import TemporaryDrawer from './components/LinksDrawer';
 
 function App() {
   const [mode, setMode] = useState('learningMode'); //tryb quizu wybierany przez TABS
@@ -90,6 +91,7 @@ function App() {
        setMode={setMode}
        saveExamAnswers={saveExamAnswers}
       />
+      <TemporaryDrawer/>
     </div>
   );
 }
