@@ -88,7 +88,11 @@ const ExamMode = ({
     >{randomQuestions[questionCount].question}</Typography>
    {randomQuestions[questionCount]?.answers &&
   Object.entries(randomQuestions[questionCount].answers).map(([key, value], index) => (
-    <Typography key={index} sx={{ fontFamily: 'inherit', fontSize:{lg:'20px', xs:'14px'}, ml:{lg:'40px', xs:'24px'},  p: '4px' }}>
+    <Typography key={index} sx={{ 
+      fontFamily: 'inherit', 
+      fontSize:{lg:'20px', xs:'14px'}, 
+      ml:{lg:'40px', xs:'0'},  
+      p: '4px' }}>
         <Checkbox
         checked={selectedAnswer === key}
         onChange={() => markAnswerByCheckbox(key)}
@@ -99,8 +103,9 @@ const ExamMode = ({
 
   </Box>
   <Box sx={{
-        width: {xs: '100%', mx:'80%', lg:'50%'},
-        position:'absolute',
+        display:{lg:'block', xs:'none'},
+        width: {xs: '100%', lg:'60%'},
+        position:'fixed',
         bottom:{lg:'50px', xs:'100px'},
         m:'0 auto',
   }}>

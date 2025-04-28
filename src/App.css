@@ -10,11 +10,18 @@
   --lemon-chiffon: #96C0B7;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .container {
   background-color: var(--cambridge-blue);
   color: #0F1A20;
   min-height: 100vh;
   display: flex;
+  gap: 8px;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
@@ -37,17 +44,16 @@
   font-size: 16px;
   font-weight: 600;
   color: red;
- 
   text-transform: uppercase;
   text-align: center;
   position: absolute;
   left: 50%;
+  top: 80px;
   transform: translateX(-50%);
-  bottom: 80px;
+  opacity: .7;
 }
 
 .question-key{
-  font-size: 28px;
   font-weight: 600;
   color: var(--liver);
 }
@@ -60,4 +66,12 @@
   box-shadow: 0 1px 4px 1px #0F1A20;
   font-weight: 600;
   color: #0F1A20;
+}
+
+@media only screen and (max-width:400px) {
+  .correct-answer-info{
+    font-size: 12px;
+    top:96px;
+    display: none;
+  }
 }

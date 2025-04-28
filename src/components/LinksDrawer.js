@@ -6,7 +6,6 @@ import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
-import GavelIcon from '@mui/icons-material/Gavel';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
@@ -47,11 +46,11 @@ export default function TemporaryDrawer() {
       </List>
       <Divider />
       <List>
-        {['All mail', 'Trash', 'Spam'].map((text, index) => (
+        {['Pytania.pdf', 'Pozwolenie', 'Opłaty'].map((text, index) => (
           <ListItem key={text} disablePadding>
             <ListItemButton>
               <ListItemIcon>
-                <GavelIcon/>
+              <OpenInNewIcon />
               </ListItemIcon>
               <ListItemText primary={text} />
             </ListItemButton>

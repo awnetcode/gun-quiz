@@ -19,6 +19,19 @@ const Footer = ({
      />
     )
   } 
+
+  const nextButton = () =>{
+    return(
+      <Button variant='contained' 
+      onClick={() => {
+        setQuestionCount(questionCount+1);
+        setSelectedAnswer('')
+      }}
+      disabled={endOfList === true ? true : false}
+      >następne
+      </Button>
+    )
+  }
   
   const finishExamButton = () =>{
     return(
@@ -47,22 +60,19 @@ const Footer = ({
       justifyContent:'space-around',
       gap:'5px',
       mb:'24px',
-      position:'absolute',
+      position:'fixed',
       bottom:'0'
     }}>
       <Button variant='contained' 
       onClick={() => setQuestionCount(questionCount-1)}
       disabled={questionCount<=0 ? true : false}
       >poprzednie</Button>
-      <Button variant='contained' 
-      onClick={() => {
-        setQuestionCount(questionCount+1);
-        setSelectedAnswer('')
-      } }
-      disabled={endOfList === true ? true : false}
-      >następne</Button>
+ 
+  {mode === 'learningMode' ? nextButton() : ''}
   {mode === 'learningMode' ? quickPageSelectIput() : ''}
-  {mode === 'examMode' ? finishExamButton() : ''}
+  {mode === 'examMode' && questionCount < 19 ? nextButton() : ''}
+  {mode === 'examMode' && questionCount >= 19 ? finishExamButton() : ''}
+  {mode === 'examFinished' ? nextButton() : ''}
     </Box>
     </>
   )

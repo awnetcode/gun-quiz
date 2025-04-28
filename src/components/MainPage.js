@@ -61,6 +61,7 @@ const MainPage = ({
       questionCount={questionCount}
       setQuestionCount={setQuestionCount}
       setListLength={setListLength}
+      checkListEnd={checkListEnd}
       />
       break;
 
@@ -70,7 +71,14 @@ const MainPage = ({
 
   return (
     <Box sx={{
-         width:{lg:'50%', xs:'100%'},
+      boxShadow:1,
+         width:{lg:'60%', xs:'90%'},
+       
+         mb:{lg:'0', xs:'96px'},
+         mt:{lg:'0px', xs:'60px'},
+         p:'12px',
+         fontFamily: 'Cormorant-Garamond, serif',
+         overflowY:'scroll',
     }}>{pageContent}</Box>
   )
 }

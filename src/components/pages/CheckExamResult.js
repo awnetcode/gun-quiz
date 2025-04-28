@@ -9,7 +9,8 @@ const CheckExamResult = ({
     examResult,
     questionCount,
     setQuestionCount,
-    setListLength
+    setListLength,
+    checkListEnd
 }) => {
 
 useEffect(() =>{
@@ -17,6 +18,11 @@ setQuestionCount(0);
 setListLength(examResult.length)
 // eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
+
+  useEffect(() => {
+    checkListEnd(examResult.length, questionCount);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  },[questionCount])
 
   return (
     <Box sx={{
@@ -42,6 +48,7 @@ setListLength(examResult.length)
     >{examResult[questionCount].question}</Typography>
     {Object.entries(examResult[questionCount].answers).map(([key, contents]) =>(
       <Typography key={key} sx={{
+        fontFamily: 'inherit',
         fontSize: 'inherit', 
         ml:{lg:'40px', xs:'24px'}, 
         p:'4px'
