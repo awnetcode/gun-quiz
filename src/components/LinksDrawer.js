@@ -1,12 +1,12 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
 import Drawer from '@mui/material/Drawer';
-import Button from '@mui/material/Button';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
 import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import OpenInNewIcon from '@mui/icons-material/OpenInNew';
+import LinkIcon from '@mui/icons-material/Link';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 
@@ -22,6 +22,13 @@ export default function TemporaryDrawer() {
     'Rozporządzenie MSWiA w sprawie przechowywania, noszenia i ewidencjonowania': 'https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230000364/O/D20230364.pdf', 
     'Wzorcowy regulamin strzelnic': 'https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20000180234/T/D20000234L.pdf', 
     'Rozporządzenia MTiGM w sprawie przewożenia':'https://isap.sejm.gov.pl/isap.Nsf/download.xsp/WDU20000310390/O/D20000390.pdf'
+  }
+
+  const licenseInfo = {
+    'Pobierz pdf z pytaniami':'https://ksp.policja.gov.pl/download/188/261842/PYTANIAEGZAMINACYJNE.pdf',
+    'Opłaty skarbowe':'https://ksp.policja.gov.pl/wpa/bron/oplaty-skarbowe/446,oplata.html',
+    'Wzory podań':'https://ksp.policja.gov.pl/wpa/bron/wzory-podan/7379,Wzory.html',
+    'Rozporządzenie MSWiA w spawie egzaminu':'https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230001475/O/D20231475.pdf',
   }
 
   const DrawerList = (
@@ -46,14 +53,20 @@ export default function TemporaryDrawer() {
       </List>
       <Divider />
       <List>
-        {['Pytania.pdf', 'Pozwolenie', 'Opłaty'].map((text, index) => (
-          <ListItem key={text} disablePadding>
-            <ListItemButton>
+        {Object.entries(licenseInfo).map(([name, link]) => (
+         <ListItem key={name} disablePadding>
+            <ListItemButton
+                component="a"
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+            >
               <ListItemIcon>
-              <OpenInNewIcon />
+                <OpenInNewIcon />
               </ListItemIcon>
-              <ListItemText primary={text} />
+              <ListItemText primary={name} />
             </ListItemButton>
+            <Divider />
           </ListItem>
         ))}
       </List>
@@ -62,11 +75,19 @@ export default function TemporaryDrawer() {
 
   return (
     <div>
-      <Button sx={{
-        position:'absolute',
-        top:{lg:'12px', xs:'60px'},
-        left:'12px'
-      }} onClick={toggleDrawer(true)} variant='contained'>linki</Button>
+
+<ListItemButton
+          sx={{
+            position:'absolute',
+            top:{lg:'12px', xs:'60px'},
+            left:'12px',
+            cursor:'pointer'
+          }} onClick={toggleDrawer(true)}>
+              <ListItemIcon>
+                <LinkIcon />
+              </ListItemIcon>
+              <ListItemText primary={'Akty prawne'}/>
+            </ListItemButton>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
       </Drawer>

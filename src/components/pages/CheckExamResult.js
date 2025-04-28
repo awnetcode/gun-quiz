@@ -1,5 +1,5 @@
 import React from 'react';
-import { useEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 import { Box, Typography} from '@mui/material';
 import { Cancel, CheckCircleOutline } from '@mui/icons-material';
@@ -13,9 +13,23 @@ const CheckExamResult = ({
     checkListEnd
 }) => {
 
+  const [correctCount, setCorrectCount] = useState(0);
+
+  const sumCorrectAnswers = () => {
+    let count = 0; // lokalna zmienna
+  
+    examResult.forEach((item) => {
+      if (item.markedAnswer === item.correctAnswer) {
+        count += 1;
+      }
+    });
+    setCorrectCount(count); // ustawiasz finalny wynik
+  };
+
 useEffect(() =>{
 setQuestionCount(0);
-setListLength(examResult.length)
+setListLength(examResult.length);
+sumCorrectAnswers();
 // eslint-disable-next-line react-hooks/exhaustive-deps
 }, []);
 
@@ -90,8 +104,16 @@ setListLength(examResult.length)
        : ''}
         <span className='question-key'>{key}. </span>
         {contents}
-      </Typography>
+      </Typography> 
     ))}
+    <Typography sx={{
+      fontSize:'20px',
+      color:correctCount >= 18 ? 'green' : 'red',
+      opacity:'.8',
+      position:'absolute',
+      top:{lg:'24px', xs:'60px'}, 
+      right:{lg:'48px', xs:'12px'}, 
+    }}>Wynik: {correctCount} / 20</Typography>
   </Box>
   )
 }

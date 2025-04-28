@@ -28,12 +28,10 @@ const TimeCounter = () => {
   
     // Formatowanie do 00:00
     const formatTime = (time) => (time < 10 ? `0${time}` : time);
-  
 
   return (
     <Box>
         <Typography color='success' className='time-counter' sx={{
-          fontFamily: 'Roboto Mono',
           fontSize: '1.5rem',
           p:'0 24px',
           borderRadius:'4px',
@@ -41,7 +39,7 @@ const TimeCounter = () => {
           textAlign:'center',
           position:'absolute',
           top:{lg:'24px', xs:'60px'}, 
-          right: '48px'
+          right:{lg:'48px', xs:'12px'}, 
         }}
         >     
         {formatTime(minutes)}:{formatTime(seconds)}

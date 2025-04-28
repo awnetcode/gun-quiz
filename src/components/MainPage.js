@@ -76,7 +76,7 @@ const MainPage = ({
        
          mb:{lg:'0', xs:'96px'},
          mt:{lg:'0px', xs:'60px'},
-         p:'12px',
+         p:{lg:'24px', xs:'12px'},
          fontFamily: 'Cormorant-Garamond, serif',
          overflowY:'scroll',
     }}>{pageContent}</Box>
