@@ -73,12 +73,17 @@ const MainPage = ({
     <Box sx={{
       boxShadow:1,
          width:{lg:'60%', xs:'90%'},
-       
+         maxHeight:'600px',
          mb:{lg:'0', xs:'96px'},
          mt:{lg:'0px', xs:'60px'},
          p:{lg:'24px', xs:'12px'},
          fontFamily: 'Cormorant-Garamond, serif',
          overflowY:'scroll',
+         msOverflowStyle:'none',
+         scrollbarWidth:'none',
+         '&::-webkit-scrollbar': {
+          display: 'none',
+        },
     }}>{pageContent}</Box>
   )
 }

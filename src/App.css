@@ -31,10 +31,11 @@
 .correct-answer-hint{
   box-shadow: 0 0 12px 2px #0F1A20;
   border-radius: 4px;
-  text-align: center;
-  padding: 4px ! important;
+  padding: 8px ! important;
   margin-top: 16px !important;
   background-color: rgba(114,87,82, .5);
+  color: rgb(12, 244, 12);
+  font-weight: 800;
 }
 
 .correct-answer-info{

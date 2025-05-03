@@ -55,6 +55,7 @@ const Footer = ({
   return (
     <>
       <Box sx={{
+      //background:'#F9F8F8',
       display:'flex',
       flexWrap:'wrap',
       justifyContent:'space-around',

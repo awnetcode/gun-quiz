@@ -28,7 +28,7 @@ export default function TemporaryDrawer() {
     'Pobierz pdf z pytaniami':'https://ksp.policja.gov.pl/download/188/261842/PYTANIAEGZAMINACYJNE.pdf',
     'Opłaty skarbowe':'https://ksp.policja.gov.pl/wpa/bron/oplaty-skarbowe/446,oplata.html',
     'Wzory podań':'https://ksp.policja.gov.pl/wpa/bron/wzory-podan/7379,Wzory.html',
-    'Rozporządzenie MSWiA w spawie egzaminu':'https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230001475/O/D20231475.pdf',
+    'Rozporządzenie MSWiA w sprawie egzaminu':'https://isap.sejm.gov.pl/isap.nsf/download.xsp/WDU20230001475/O/D20231475.pdf',
   }
 
   const DrawerList = (
